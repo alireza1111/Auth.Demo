@@ -1,6 +1,12 @@
-<nav class="navbar navbar-dark bg-dark">
+<!-- <nav class="navbar navbar-dark bg-dark">
     <a class="navbar-brand text-white">JWT Auth System</a>
     <button class="btn btn-danger my-2 my-sm-0" (click)="onLogout()">Logout</button>
+  </nav> -->
+
+  <nav class="nav nav-pills" style="text-align:right; font-size:30px;">
+    <a class="nav-link disabled" href="#"><b>JWT Auth System</b></a>
+    <a class="nav-link active" (click)="onLogout()"href="#"><strong>Logout</strong></a>
+
   </nav>
   
   <div class="card m-5" style="width:18rem" *ngIf="userDetails">
